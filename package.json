@@ -1,6 +1,6 @@
 {
   "name": "markpost",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "An arcticle generator with markdown",
   "main": "index.js",
   "dependencies": {
