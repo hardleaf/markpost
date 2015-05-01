@@ -1,6 +1,6 @@
 {
   "name": "markpost",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "An arcticle generator with markdown",
   "main": "index.js",
   "dependencies": {
@@ -31,9 +31,9 @@
   ],
   "author": "jmzavala",
   "license": "MIT",
-  "homepage": "https://github.com/jmzavala/markpost",
+  "homepage": "https://github.com/hardleaf/markpost",
   "repository": {
     "type": "git",
-    "url": "git://github.com/jmzavala/markpost.git"
+    "url": "git://github.com/hardleaf/markpost.git"
   }
 }
