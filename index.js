@@ -39,7 +39,7 @@ getopt.setHelp(
   "An arcticle generator with markdown.\n" +
   "\n" +
   "markpost init [name], Create a new proyect.\n"+
-  "markpost publish , Publish a article.\n"+
+  "markpost create , Publish a article.\n"+
   "------------------------------------\n"+
   "[[OPTIONS]]\n" +
   "\n" +
@@ -48,7 +48,7 @@ getopt.setHelp(
 if (opt.options.version){
 	log.info("Version "+ pjson.version);
 }else{
-	if(opt.argv[0]==='publish' ){
+	if(opt.argv[0]==='create' ){
 		mp.generate(opt, function (err){
 			if (err){
 				log.error(err);
